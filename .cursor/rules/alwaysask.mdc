@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: Strict user confirmation rule
+alwaysApply: true
+---
+- The AI must not create, edit, or modify any files or code without explicit user approval.
+- Before performing any action, the AI should **summarize its intended changes or decision** to the user.
+- The AI should then **ask the user for confirmation** (for example, "Shall I apply these changes?") and **wait for a clear yes** before proceeding.
+- If the user does not explicitly approve the action, the AI must refrain from executing it.
+- The AI should ask clarifying questions if uncertain, rather than guessing and acting.
